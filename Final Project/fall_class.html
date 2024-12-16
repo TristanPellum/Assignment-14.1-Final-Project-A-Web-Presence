@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First HTML document</title>
+    <link rel="stylesheet" href="fall_class.css">
+    <script src="fall_class.js"></script> 
+</head>
+<body>
+    <nav>
+        <a href="https://www.uat.edu/"> 
+            <img src="uat-logo.png" alt="UAT Logo"/> 
+        </a> 
+        <a href="learn_js.html">Home</a> 
+        <a href="basic.html">About</a> 
+        <a href="/Users/jaelkruthibattana/Desktop/Code%20files/Fall_Inperson_Class/contat.html">Contact</a> 
+        <a href="signup.html">Sign up</a> 
+        <a href="Final Project.html">Launch Page</a>
+    </nav> 
+    <p id="randomword">My name is Jael</p> 
+    <button type="button" onclick="myFunction()">Click Me!</button>
+ 
+    <!-- <button type="button" onclick='document.getElementById("randomword").innerHTML = "Hello Jael"'>Click Me!</button> -->
+    
+    <h1>Heading 1</h1>
+    <h6 class="sample">Heading 6</h6>
+    <p id="introduction">Hello all this is a paragraph tag 
+        Hello all this is a paragraph tag
+        Hello all this is a paragraph tag
+        Hello all this is a paragraph tag
+    </p>
+    <!--Lists  -->
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Pear</li>
+    </ul>
+    <ol>
+        <li>Tiger</li>
+        <li>Lion</li>
+        <li>Bear</li>
+    </ol>
+    <!-- Tables -->
+    <table border="1">
+        <tr>
+            <th>Student Name</th>
+            <th>Course</th>
+        </tr>
+        <tr>
+            <td>Adam</td>
+            <td>CSC 102</td>
+        </tr>
+        <tr>
+            <td>Perry</td>
+            <td>CSC 235</td>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Potato</li>
+                    <li>Tomato</li>
+                    <li>Limes</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <!-- Images and Links -->
+    <!-- <img src="uat-logo.png" alt="UAT Logo"> -->
+    <a href="https://www.uat.edu/"> Click this link to go to UAT</a>
+
+    <p class="sample">Click on the following link<a href="https://www.uat.edu/">Link</a> to go to UAT website</p>
+
+    <!-- <a href="https://www.uat.edu/">
+        <img src="uat-logo.png" alt="UAT Logo">
+    </a> -->
+
+    <!-- Buttons -->
+    <div>
+        <button>Submit</button>
+    </div>
+
+    <h1>Heading 1</h1>
+
+    <!-- Inline Styling -->
+    <h2 style="color: orange;">
+        This is Heading 2
+    </h2>
+    <p style="font-style:italic;">
+        Hello all this is a paragraph tag 
+        Hello all this is a paragraph tag
+        Hello all this is a paragraph tag
+        Hello all this is a paragraph tag
+    </p>
+    <h4 style="color: aqua;">
+        <center>
+            Actual Content
+        </center>
+    </h4>
+
+    <!-- Simple Registration Form -->
+    <form id="registrationForm" onsubmit="validateForm()"> 
+        <label for="username">Username:</label> 
+        <input type="text" id="username" name="username" required><br><br> 
+        
+        <label for="password">Password:</label> 
+        <input type="password" id="password" name="password" required><br><br> 
+        
+        <label for="confirmPassword">Confirm Password:</label> 
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br><br> 
+        
+        <input type="submit" value="Submit"><br><br> 
+        
+        </form> 
+
+    <!-- Explanations:
+    <label> - define a label for an <input>, <select>, <textarea>, or <button> element.  
+    for - It associates the input tag and label tag. It specifies which form element the label is associated with. The value should match the id attribute of the related form control. 
+    <input>: This is an HTML tag used to create various types of form controls, such as text fields, checkboxes, radio buttons, etc. 
+    type="text": This attribute specifies the type of the input field. In this case, it's a text input, allowing users to enter alphanumeric text. 
+    id="username": This attribute provides a unique identifier for the input element. It is used in conjunction with the <label> tag's for attribute to associate the label with this input. 
+    name="username": This attribute defines the name of the input field. When the form is submitted, the data entered this field will be sent with the name "username."  
+    -->
+</body>
+</html>
